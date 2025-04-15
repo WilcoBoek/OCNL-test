@@ -1,4 +1,4 @@
-javascript: (() =>{
+function SRepExoprt() {
 	/* == SearchReport Export v0.19 == */
 	const projID = document.title.substr(document.title.search(": ")+2);
 	const projID1 = (!isNaN(projID)) ? ('EP' + projID) : (projID);
@@ -389,5 +389,4 @@ javascript: (() =>{
 	function sleep(ms){
 		return new Promise(resolve => setTimeout(resolve, ms));
 	}
-
-} )();
+}
