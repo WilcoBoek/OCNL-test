@@ -1,3 +1,7 @@
+function sayHello() { 
+    console.log("Hello! What is your email address?"); 
+} 
+
 function SRepExport() {
 	/* == SearchReport Export v0.19 == */
 	const projID = document.title.substr(document.title.search(": ")+2);
